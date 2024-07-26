@@ -38,3 +38,7 @@ SHOW SCHEMAS from iceberg;
 ```bash
 SHOW TABLES from iceberg.test;
 ```
+
+```bash
+select * from iceberg.test.customer;
+```
