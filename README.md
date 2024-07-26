@@ -36,5 +36,5 @@ SHOW SCHEMAS from iceberg;
 ```
 
 ```bash
- SHOW TABLES from iceberg.test;
+SHOW TABLES from iceberg.test;
 ```
