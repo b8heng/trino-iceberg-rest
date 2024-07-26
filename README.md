@@ -30,3 +30,11 @@ docker exec -it trino trino
 
 Inspect warehouse bucket contents: open [Minio Admin panel](http://localhost:9001)
 (user name: `admin` password: `password`).
+
+```bash
+SHOW SCHEMAS from iceberg;
+```
+
+```bash
+ SHOW TABLES from iceberg.test;
+```
