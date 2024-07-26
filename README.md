@@ -42,3 +42,18 @@ SHOW TABLES from iceberg.test;
 ```bash
 select * from iceberg.test.customer;
 ```
+
+```bash
+CREATE SCHEMA iceberg.demo;
+
+CREATE TABLE iceberg.demo.taxis (
+  vendor_id bigint,
+  trip_id bigint,
+  trip_distance real,
+  fare_amount double,
+  store_and_fwd_flag varchar
+)
+WITH (
+  partitioning = ARRAY['vendor_id']
+);
+```
