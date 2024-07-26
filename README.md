@@ -59,4 +59,6 @@ WITH (
 
 INSERT INTO iceberg.demo.taxis
 VALUES (1, 1000371, 1.8, 15.32, 'N'), (2, 1000372, 2.5, 22.15, 'N'), (2, 1000373, 0.9, 9.01, 'N'), (1, 1000374, 8.4, 42.13, 'Y');
+
+SELECT * FROM iceberg.demo.taxis;
 ```
